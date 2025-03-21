@@ -1,5 +1,5 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import React from "react";
 
 const initialState = {
@@ -8,32 +8,60 @@ const initialState = {
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [formState, setFormState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setState((prevState) => ({ ...prevState, [name]: value }));
+    setFormState((prevState) => ({ ...prevState, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
+  const clearState = () => setFormState({ ...initialState });
   
   
   const handleSubmit = (e) => {
     e.preventDefault();
+    const { name, email, message } = formState;
     console.log(name, email, message);
     
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
+    /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ 
     
+    const serviceID = "service_jw7w2h6";
+    const templateID = "template_u69302r";
+    const userID = "Pd6q-_BpsCmfu0tEt";
+
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(serviceID, templateID, e.target, userID)
       .then(
         (result) => {
           console.log(result.text);
-          clearState();
+          //clearState();
+// Send auto-reply to user
+const autoReplyTemplateID = "template_6kl9fo7"; // Replace with your auto-reply template ID
+const templateParams = {
+  email: email,
+  user_name: name,
+  // Add other parameters required by your auto-reply template
+  message: message,
+};
+console.log("Sending auto-reply...");
+console.log(templateParams);
+
+emailjs
+  .send(serviceID, autoReplyTemplateID, templateParams, userID)
         },
         (error) => {
           console.log(error.text);
         }
+      ).then(
+        (autoResult) => {
+          console.log("Auto-reply sent:", autoResult);
+        },
+        (error) => {
+          console.log("Error sending auto-reply:", error.text);
+        }
       );
+
+      
   };
   return (
     <div>

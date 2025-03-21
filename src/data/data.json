@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Empowering Professionals Strengthening Networks",
+    "paragraph": "GSN is a premium business networking platform that connects entrepreneurs, professionals, and industry leaders to foster growth and success"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "GSN (Global Success Network) is a leading business networking platform designed to connect professionals across industries. Our mission is to facilitate meaningful business connections, drive referrals, and create growth opportunities for members worldwide. Whether you're an entrepreneur, business owner, or executive, GSN provides a structured and results-driven networking experience.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Trusted global networking platform",
+      "Driving business success",
+      "Empowering entrepreneurs worldwide",
+      "Fostering innovation through collaboration"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Connect professionals",
+      "Create opportunities",
+      "Enable structured networking",
+      "Facilitate business growth"
     ]
   },
   "Gallery": [
