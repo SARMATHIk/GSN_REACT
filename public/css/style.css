@@ -59,8 +59,8 @@ ol {
 ul,
 ol {
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
+  /* webkit-padding: 0;
+  moz-padding: 0; */
 }
 hr {
   height: 2px;
@@ -75,6 +75,7 @@ hr {
 #menu {
   /* padding: 15px;
   transition: all 0.8s; */
+
   position: fixed;
   width: 100%;
   top: 0;
@@ -106,7 +107,8 @@ hr {
   font-weight: 700;
   color: #333;
   text-transform: uppercase; */
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: Test Tiempos Text;
   font-size: 24px;
   font-weight: 700;
   color: #faf3f3;
@@ -118,7 +120,8 @@ hr {
 }
 
 #menu.navbar-default .navbar-nav > li > a {
-    font-family: "Lato", sans-serif;
+    /* font-family: "Lato", sans-serif; */
+    font-family: Test Tiempos Text;
   text-transform: uppercase;
   color: #fff; /* White text before scrolling */
   font-size: 15px;
@@ -165,7 +168,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #e41111 0%, #ac0e0e 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -192,7 +195,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #fe1414 0%, #d21711 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -287,6 +290,9 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 } */
+ .intro-text {
+  font-family: Test Tiempos Text;
+ }
 
 .video-container {
   position: relative;
@@ -380,7 +386,7 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(to right, #eb0909 0%, #ce2b0a 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -395,7 +401,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #f20a0a;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -412,13 +418,13 @@ header .intro-text {
   margin: 30px 0;
 }
 /* Services Section */
-#services {
+/* #services {
   padding: 100px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   /* background-color: #e6e4e4; New background color */
-  color: #fff;
-}
-#services .service-desc {
+  /* color: #fff; */
+/* } */ */
+/* #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
@@ -448,62 +454,186 @@ header .intro-text {
   font-weight: 500;
   padding: 5px 0;
   color: #fff;
-}
-#services p {
+} */
+/* #services p {
   color: rgba(255, 255, 255, 0.75);
 }
 #services .service-desc {
   margin-bottom: 40px;
+} */
+ /* Services Section */
+/* Services Section */
+.container{
+  background-color: grey;
 }
-/* Portfolio Section */
-#portfolio {
-  padding: 100px 0;
-}
-.portfolio-item {
-  margin: 1px -15px 0 -14px;
-  padding: 0;
-}
-.portfolio-item .hover-bg {
-  overflow: hidden;
-  position: relative;
-  margin: 0;
-}
-.hover-bg .hover-text {
-  position: absolute;
-  text-align: center;
-  margin: 0 auto;
-  color: #fff;
-  background: linear-gradient(
-    to right,
-    rgba(99, 114, 255, 0.8) 0%,
-    rgba(92, 169, 251, 0.8) 100%
-  );
-  padding: 30% 0 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: all 0.5s;
-}
-.hover-bg .hover-text > h4 {
-  opacity: 0;
-  color: #fff;
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
-  transition: all 0.3s;
-  font-size: 18px;
-  letter-spacing: 1px;
-  font-weight: 500;
+
+#services {
+  padding: 80px 0;
+  background-color: #f4f4f4; /* Light Grey */
+ }
+
+#services .section-title h2 {
+  color: #232323;
+  font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
-.hover-bg:hover .hover-text > h4 {
-  opacity: 1;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+
+#services .section-title p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
 }
-.hover-bg:hover .hover-text {
-  opacity: 1;
+
+/* Service Card */
+.pofo-service-card {
+  background: #fff;
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  min-height: 320px; /* Set a minimum height to keep all cards equal */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 2px solid  #ff214f;
 }
+
+.pofo-service-card:hover {
+  background:  #343a40;
+  color: white;
+  border: none;
+  transform: translateY(-5px);
+}
+
+.pofo-service-card:hover .service-icon {
+  background: white;
+}
+
+.pofo-service-card:hover .service-icon i {
+  color: #ff214f;
+}
+
+.pofo-service-card:hover .service-title {
+  color: white;
+}
+
+.pofo-service-card:hover .service-description {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* Icon Styling */
+.service-icon {
+  width: 80px;
+  height: 80px;
+  background: #ff214f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-icon i {
+  font-size: 32px;
+  color: white;
+  transition: color 0.3s;
+}
+
+/* Title & Description */
+.service-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.service-description {
+  flex-grow: 1; /* Makes sure all text aligns properly */
+  font-size: 14px;
+  color: #777;
+  transition: color 0.3s;
+}
+/* Gallery Section */
+/* .container{
+  height: 400px;  
+  overflow: hidden; 
+} */
+#portfolio {
+  height: 650px;
+  overflow: hidden;
+  padding: 80px 0;
+  background: white;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 20px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.image-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 18px;
+  padding: 10px 0;
+  border-radius: 0 0 10px 10px;
+}
+
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Slick Navigation Arrows */
+.slick-prev,
+.slick-next {
+  color: #ff214f;
+  z-index: 10;
+}
+
+.slick-dots li button:before {
+  color: #ff214f;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+  .carousel-item img {
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    max-height: 200px;
+  }
+}
+
+
+
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
@@ -565,7 +695,8 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #f75d5d 0%, #a3a4a5 100%); */
+  background-color: #353638;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -583,7 +714,7 @@ header .intro-text {
 #contact .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(206, 6, 6, 0.9);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -605,6 +736,7 @@ header .intro-text {
 }
 #contact .btn-custom {
   margin: 30px 0;
+  color: white;
   background: transparent;
   border: 2px solid #fff;
 }
@@ -685,20 +817,24 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: #608dfd;
+  color: #fd6060;
   background: #fff;
+}
+i{
+  color:red
 }
 /* Footer Section*/
 #footer {
-  background: #f6f6f6;
+  background: white;
   padding: 30px 0;
 }
 #footer p {
-  color: #888;
+  color: black;
   font-size: 14px;
 }
-#footer a {
+#footer span {
   color: #608dfd;
+
 }
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
