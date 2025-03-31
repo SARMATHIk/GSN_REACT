@@ -1,8 +1,29 @@
 {
   "Header": {
-    "title": "Empowering Professionals Strengthening Networks",
-    "paragraph": "GSN is a premium business networking platform that connects entrepreneurs, professionals, and industry leaders to foster growth and success"
+    "title": "Global Success Network-Networking Reimagined for the Future",
+    "paragraph": "Step into the future of networking where smarter tools and stronger bonds leave old-school handshakes behind. GS’s unique system guides you from visitor to victor, unlocking business wins, real relationships, and a path to success that’s ahead of the curve. From GSN Vikshan in Chennai to the world, we're leading the charge."
   },
+
+  
+    "Benefits": [
+      {
+        "title": "Enhanced Visibility",
+        "description": "Increase your brand recognition with a strategic online presence.",
+        "icon": "🌟"
+      },
+      {
+        "title": "Business Growth",
+        "description": "Drive customer engagement and boost sales with effective marketing.",
+        "icon": "📈"
+      },
+      {
+        "title": "Customer Trust",
+        "description": "Build strong customer relationships with a reliable and transparent brand image.",
+        "icon": "🤝"
+      }
+    ],
+  
+   
   "About": {
     "paragraph": "GSN (Global Success Network) is a leading business networking platform designed to connect professionals across industries. Our mission is to facilitate meaningful business connections, drive referrals, and create growth opportunities for members worldwide. Whether you're an entrepreneur, business owner, or executive, GSN provides a structured and results-driven networking experience.",
     "Why": [

@@ -1,15 +1,49 @@
+// import React from "react";
+
+// export const Header = (props) => {
+//   return (
+//     <header id="header">
+//       {/* <div className="intro"> */}
+//       <div className="video-container">
+//       <video autoPlay loop muted playsInline>
+//           <source src="/img/hero.mp4" type="video/mp4" />
+//           Your browser does not support the video tag.
+//         </video>
+//                 <div className="overlay">
+//           <div className="container">
+//             <div className="row">
+//               <div className="col-md-8 col-md-offset-2 intro-text">
+//                 <h1>
+//                   {props.data ? props.data.title : "Loading"}
+//                   <span></span>
+//                 </h1>
+//                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
+//                 <a
+//                   href="#features"
+//                   className="btn btn-custom btn-lg page-scroll"
+//                 >
+//                   Join GSN Today
+//                 </a>{" "}
+//               </div>
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//       {/* </div> */}
+//     </header>
+//   );
+// };
 import React from "react";
 
 export const Header = (props) => {
   return (
     <header id="header">
-      {/* <div className="intro"> */}
       <div className="video-container">
-      <video autoPlay loop muted playsInline>
+        <video autoPlay loop muted playsInline>
           <source src="/img/hero.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-                <div className="overlay">
+        <div className="overlay">
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
@@ -18,18 +52,19 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Join GSN Today
-                </a>{" "}
+
+                {/* Buttons Section */}
+                <div className="header-buttons">
+                  <a href="#apply" className="btn-custom">Apply to Join GSN</a>
+                  <a href="#book-call" className="btn-custom">Book a Discovery Call</a>
+                  <a href="#gsn-difference" className="btn-custom">See the GSN Difference</a>
+                </div>
+
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* </div> */}
     </header>
   );
 };

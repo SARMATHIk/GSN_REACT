@@ -1,6 +1,7 @@
 body,
 html {
   font-family: "Open Sans", sans-serif;
+  /* font-family: 'poppins-bold', sans-serif !important; */
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -108,10 +109,10 @@ hr {
   color: #333;
   text-transform: uppercase; */
   /* font-family: "Raleway", sans-serif; */
-  font-family: Test Tiempos Text;
-  font-size: 24px;
+  font-family: 'poppins-bold', sans-serif !important;
+  font-size: 44px;
   font-weight: 700;
-  color: #faf3f3;
+  color: #D4AF37;
   text-transform: uppercase;
   transition: color 0.3s;
 }
@@ -121,7 +122,7 @@ hr {
 
 #menu.navbar-default .navbar-nav > li > a {
     /* font-family: "Lato", sans-serif; */
-    font-family: Test Tiempos Text;
+    font-family: 'poppins-bold', sans-serif !important;
   text-transform: uppercase;
   color: #fff; /* White text before scrolling */
   font-size: 15px;
@@ -135,7 +136,7 @@ hr {
 }
 /* Hover Effect */
 #menu.navbar-default .navbar-nav > li > a:hover {
-  color: #9e9fa0; /* Change this color as per theme */
+  color: #D4AF37; /* Change this color as per theme */
 }
 
 #menu.navbar-default .navbar-nav > li > a:after {
@@ -159,7 +160,7 @@ hr {
 .navbar-default .navbar-nav > .active > a:focus {
   background-color: transparent;
 }
-.navbar-default .navbar-nav > .active > a:after,
+/* .navbar-default .navbar-nav > .active > a:after,
 .navbar-default .navbar-nav > .active > a:hover:after,
 .navbar-default .navbar-nav > .active > a:focus:after {
   display: block !important;
@@ -171,7 +172,7 @@ hr {
   background: linear-gradient(to right, #e41111 0%, #ac0e0e 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
-}
+} */
 .navbar-toggle {
   border-radius: 0;
 }
@@ -205,30 +206,33 @@ hr {
 .section-title p {
   font-size: 18px;
 }
+
+.header-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; /* Spacing between buttons */
+  margin-top: 20px;
+}
 .btn-custom {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  color: #0b0b0b;
-  background-color: white;
-  /* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
-  padding: 14px 30px;
-  letter-spacing: 1px;
-  margin: 0;
-  font-size: 15px;
-  font-weight: 500;
-  border-radius: 25px;
-  transition: all 0.5s linear;
-  border: 0;
+  background-color: #D4AF37; /* Gold background */
+  color: #1A1A1A; /* Black text */
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 25px; /* Rounded corners */
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
 }
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom.focus,
 .btn-custom:active,
 .btn-custom.active {
-  color: #fff;
+  color:#D4AF37;;
   background-image: none;
   background-color: transparent;
-  border: 2px solid white;
+  border: 2px solid #D4AF37;;
   
 }
 .btn:active,
@@ -291,7 +295,7 @@ a:focus,
   -o-background-size: cover;
 } */
  .intro-text {
-  font-family: Test Tiempos Text;
+  font-family: 'poppins-bold', sans-serif !important;
  }
 
 .video-container {
@@ -331,8 +335,9 @@ a:focus,
 .video-container h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 40px;
-  font-weight: 700;
+  font-size: 35px;
+  
+    font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
@@ -343,11 +348,12 @@ a:focus,
 }
 .video-container p {
   color: #fff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 300;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
+  align-items: justify;
 }
 header .intro-text {
   padding-top: 350px;
@@ -370,6 +376,56 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+/* Benefits section */
+.benefits-section {
+  background: #ffffff;
+  color: #1A1A1A;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.benefits-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #D4AF37;
+  margin-bottom: 30px;
+}
+
+.benefits-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.benefit-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.benefit-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #D4AF37;
+  margin-bottom: 10px;
+}
+
+.benefit-description {
+  font-size: 1rem;
+  color: #1A1A1A;
+}
+
 /* About Section */
 #about {
   padding: 100px 0;
