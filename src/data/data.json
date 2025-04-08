@@ -23,22 +23,13 @@
       }
     ],
   
-   
-  "About": {
-    "paragraph": "GSN (Global Success Network) is a leading business networking platform designed to connect professionals across industries. Our mission is to facilitate meaningful business connections, drive referrals, and create growth opportunities for members worldwide. Whether you're an entrepreneur, business owner, or executive, GSN provides a structured and results-driven networking experience.",
-    "Why": [
-      "Trusted global networking platform",
-      "Driving business success",
-      "Empowering entrepreneurs worldwide",
-      "Fostering innovation through collaboration"
-    ],
-    "Why2": [
-      "Connect professionals",
-      "Create opportunities",
-      "Enable structured networking",
-      "Facilitate business growth"
-    ]
-  },
+    
+      "About": {
+  "paragraph": "Global Success Network (GSN) is rewriting networking’s rules with a system that’s defining the future. We’re a community of entrepreneurs who grow businesses, forge real relationships, and evolve personally through a bold, tech-powered journey.",
+  "vision": "To spark a global movement of entrepreneurs who thrive with smarter tools and stronger bonds—shaping the future of success.",
+  "mission": "To empower you with a revolutionary network that turns connections into growth—delivering referrals, relationships, and recognition through a one-of-a-kind approach."
+},
+  
   "Gallery": [
     {
       "title": "Project Title",
@@ -86,29 +77,40 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
-  "Services": [
-    {
-      "icon": "fa fa-building",
-      "name": "Business Networking Events",
-      "text": "Connect with like-minded professionals in exclusive networking events.."
-    },
-    {
-      "icon": "fa fa-exchange-alt",
-      "name": "Referral Programs",
-      "text": "Generate high-quality business leads through strategic networking"
-    },
-    {
-      "icon": "fa fa-chart-line",
-      "name": "Mentorship & Growth",
-      "text": "Learn from industry leaders and business experts."
-    },
-    {
-      "icon": "fa fa-globe",
-      "name": "Online Business Community",
-      "text": "Collaborate and share insights with a global network of professionals."
-    }
-    
-  ],
+  
+    "Services": [
+      {
+        "icon": "fa fa-handshake",
+        "name": "Smarter Referrals",
+        "text": "Unlock high-value opportunities with tech that’s ahead of the curve."
+      },
+      {
+        "icon": "fa fa-users",
+        "name": "Leadership Edge",
+        "text": "Sharpen your skills to lead and inspire."
+      },
+      {
+        "icon": "fa fa-bullhorn",
+        "name": "Pitch Power",
+        "text": "Stand out and win clients with confidence."
+      },
+      {
+        "icon": "fa fa-lightbulb",
+        "name": "Success Secrets",
+        "text": "Master business and mindset through our unique sessions."
+      },
+      {
+        "icon": "fa fa-chart-line",
+        "name": "Personal Growth Path",
+        "text": "Evolve with tools and support tailored just for you."
+      },
+      {
+        "icon": "fa fa-check-circle",
+        "name": "Purpose-Driven Wins",
+        "text": "Build a business that matters, step by step."
+      }
+    ],
+  
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",

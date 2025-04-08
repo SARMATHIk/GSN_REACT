@@ -24,21 +24,13 @@
     ],
   
    
-  "About": {
-    "paragraph": "GSN (Global Success Network) is a leading business networking platform designed to connect professionals across industries. Our mission is to facilitate meaningful business connections, drive referrals, and create growth opportunities for members worldwide. Whether you're an entrepreneur, business owner, or executive, GSN provides a structured and results-driven networking experience.",
-    "Why": [
-      "Trusted global networking platform",
-      "Driving business success",
-      "Empowering entrepreneurs worldwide",
-      "Fostering innovation through collaboration"
+    "About": [
+      {
+      "paragraph": "Global Success Network (GSN) is rewriting networking’s rules with a system that’s defining the future. We’re a community of entrepreneurs who grow businesses, forge real relationships, and evolve personally through a bold, tech-powered journey.",
+      "vision": "To spark a global movement of entrepreneurs who thrive with smarter tools and stronger bonds—shaping the future of success.",
+      "mission": "To empower you with a revolutionary network that turns connections into growth—delivering referrals, relationships, and recognition through a one-of-a-kind approach."
+    }
     ],
-    "Why2": [
-      "Connect professionals",
-      "Create opportunities",
-      "Enable structured networking",
-      "Facilitate business growth"
-    ]
-  },
   "Gallery": [
     {
       "title": "Project Title",

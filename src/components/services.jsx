@@ -30,34 +30,39 @@
 //   );
 // };
 import React from "react";
+import { FaHandshake, FaUsers, FaBullhorn, FaLightbulb, FaChartLine, FaCheckCircle } from "react-icons/fa";
 
-export const Services = (props) => {
+
+const serviceData = [
+  { icon: <FaHandshake />, name: "Smarter Referrals", text: "Unlock high-value opportunities with tech that’s ahead of the curve." },
+  { icon: <FaUsers />, name: "Leadership Edge", text: "Sharpen your skills to lead and inspire." },
+  { icon: <FaBullhorn />, name: "Pitch Power", text: "Stand out and win clients with confidence." },
+  { icon: <FaLightbulb />, name: "Success Secrets", text: "Master business and mindset through our unique sessions." },
+  { icon: <FaChartLine />, name: "Personal Growth Path", text: "Evolve with tools and support tailored just for you." },
+  { icon: <FaCheckCircle />, name: "Purpose-Driven Wins", text: "Build a business that matters, step by step." }
+];
+
+const Services = () => {
   return (
-    <div id="services" className="text-center">
-      <div className="container">
-        <div className="section-title">
-          <h2>Our Services</h2>
-          <p>
-            We offer structured networking opportunities, industry-specific
-            meetings, and strategic referral programs to help businesses grow.
-          </p>
-        </div>
-        <div className="row">
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6">
-                  <div className="pofo-service-card">
-                    <div className="service-icon">
-                      <i className={d.icon}></i>
-                    </div>
-                    <h3 className="service-title">{d.name}</h3>
-                    <p className="service-description">{d.text}</p>
-                  </div>
-                </div>
-              ))
-            : "Loading..."}
+    <section className="services">
+      <div className="services-container">
+      <h2 className="services-main-title">Services</h2> 
+        <h2 className="services-title">What GSN Brings You</h2>
+        <p className="services-description">
+          Step into a network that’s more than meetings—it’s a Launchpad for the future.
+        </p>
+        <div className="services-grid">
+          {serviceData.map((service, index) => (
+            <div className="service-card" key={index}>
+              <div className="service-icon">{service.icon}</div>
+              <h3 className="service-title">{service.name}</h3>
+              <p className="service-text">{service.text}</p>
+            </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
+
+export default Services;
