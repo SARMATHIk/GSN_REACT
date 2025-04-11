@@ -54,7 +54,7 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a href="#gsn experience" className="page-scroll">
+              <a href="#experience" className="page-scroll">
                 GSN Experience
               </a>
             </li>

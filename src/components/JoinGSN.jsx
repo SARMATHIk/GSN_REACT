@@ -226,5 +226,4 @@ const JoinGSN = () => {
 
 export default JoinGSN;
 
-// final one
 

@@ -31,6 +31,29 @@
       "mission": "To empower you with a revolutionary network that turns connections into growth—delivering referrals, relationships, and recognition through a one-of-a-kind approach."
     }
     ],
+
+    "blogs": [
+    {
+      "id": "1",
+      "title": "Don't miss a single match this season.",
+      "author": "Mithcal",
+      "date": "1h ago",
+      "excerpt": "Whether it's an away game or tournament...",
+      "image": "/img/blog1.jpg",
+      "slug": "match-season",
+      "content": "Full blog content goes here..."
+    },
+    {
+      "id": "2",
+      "title": "Don't miss a single match this season.",
+      "author": "Mithcal",
+      "date": "1h ago",
+      "excerpt": "Whether it's an away game or tournament...",
+      "image": "/img/blog1.jpg",
+      "slug": "match-season",
+      "content": "Full blog content goes here..."
+    }
+  ],
   "Gallery": [
     {
       "title": "Project Title",
