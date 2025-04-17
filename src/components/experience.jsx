@@ -3,7 +3,7 @@ import { FaTools, FaUsers, FaTrophy } from "react-icons/fa";
 
 const GSNExperience = () => {
   return (
-    <section className="gsn-experience">
+    <section id="experience" className="gsn-experience">
       <div className="experience-container">
         <h2 className="experience-title">GSN Experience</h2>
         <p className="experience-subtitle">
