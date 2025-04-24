@@ -49,7 +49,7 @@ const Services = () => {
       <h2 className="services-main-title">Services</h2> 
         <h2 className="services-title">What GSN Brings You</h2>
         <p className="services-description">
-          Step into a network that’s more than meetings—it’s a Launchpad for the future.
+        Join a network that goes beyond meetings—it's your launchpad to future success.
         </p>
         <div className="services-grid">
           {serviceData.map((service, index) => (

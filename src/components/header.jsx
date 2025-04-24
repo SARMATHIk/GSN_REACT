@@ -21,7 +21,7 @@ export const Header = (props) => {
 
                 {/* Buttons Section */}
                 <div className="header-buttons">
-                  <a href="#apply" className="btn-custom">Apply to Join GSN</a>
+                  <a href="#join gsn" className="btn-custom">Join the Future of Networking</a>
                   <a href="#book-call" className="btn-custom">Book a Discovery Call</a>
                   <a href="#gsn-difference" className="btn-custom">See the GSN Difference</a>
                 </div>

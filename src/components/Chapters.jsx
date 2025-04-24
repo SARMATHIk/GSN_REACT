@@ -159,9 +159,9 @@ const Chapters = () => {
           </div>
         </div>
       </div>
-      <div className="chapters-footer">
+      {/* <div className="chapters-footer">
         <Carousel messages={comingSoonMessages} />
-      </div>
+      </div> */}
     </section>
   );
 };

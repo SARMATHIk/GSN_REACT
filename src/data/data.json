@@ -1,14 +1,14 @@
 {
   "Header": {
-    "title": "Global Success Network-Networking Reimagined for the Future",
-    "paragraph": "Step into the future of networking where smarter tools and stronger bonds leave old-school handshakes behind. GS’s unique system guides you from visitor to victor, unlocking business wins, real relationships, and a path to success that’s ahead of the curve. From GSN Vikshan in Chennai to the world, we're leading the charge."
+    "title": "Connect with Clarity Grow with Purpose.",
+    "paragraph": " GSN is not just a networking platform — it’s a movement. A space where focused thoughts, aligned energy, and smart AI come together to transform your business journey."
   },
 
   
     "Benefits": [
       {
         "title": "Enhanced Visibility",
-        "description": "Increase your brand recognition with a strategic online presence.",
+        "description": "Increase your brand recognition with a strategic online presence",
         "icon": "🌟"
       },
       {
@@ -25,28 +25,44 @@
   
     
       "About": {
-  "paragraph": "Global Success Network (GSN) is rewriting networking’s rules with a system that’s defining the future. We’re a community of entrepreneurs who grow businesses, forge real relationships, and evolve personally through a bold, tech-powered journey.",
-  "vision": "To spark a global movement of entrepreneurs who thrive with smarter tools and stronger bonds—shaping the future of success.",
-  "mission": "To empower you with a revolutionary network that turns connections into growth—delivering referrals, relationships, and recognition through a one-of-a-kind approach."
+  "paragraph": "Global Success Network (GSN) is redefining the future of networking with a bold, tech-driven approach. We’re a dynamic community of entrepreneurs committed to growing our businesses, building authentic relationships, and evolving personally—together.",
+  "vision": "To ignite a global movement of entrepreneurs empowered by smarter tools and deeper connections—reshaping the future of success.",
+  "mission": "To equip you with a transformative network that converts connections into meaningful growth—offering referrals, authentic relationships, and recognition through a truly distinctive approach."
 },
   
 
-  "blogs": [
-    {
-      "id": "1",
-      "title": "Don't miss a single match this season.",
-      "author": "Mithcal",
-      "date": "1h ago",
-      "excerpt": "Whether it's an away game or tournament...",
-      "image": "/img/image.png",
-      "slug": "match-season",
-      "content": "Full blog content goes here..."
-    }
-   
-  ],
-
-
-  
+ "blog": [
+  {
+    "id": 1,
+    "title": "Networking’s Next Frontier—Are You Ready?",
+    "date": "March 26, 2025",
+    "excerpt": "GSN is rewriting the rules with a bold, forward-thinking approach.",
+    "author": "By GSN Team",
+    "image": "/img/blog/blog1.jpg",
+    "content": "Networking as we know it—stuffy meetings, forced handshakes, and scattered leads—is fading fast. At Global Success Network (GSN), we’re rewriting the rules with a bold, forward-thinking approach that’s already turning heads. So, why is GSN leading the charge into the future?\n\nIt starts with smarter tools. Our exclusive tech doesn’t just connect people—it learns your goals, matches you with purpose, and delivers results old-school networks can’t touch. Then there’s the human side: we guide you through 6 weeks of real relationships—bonds that fuel growth and last beyond the meeting room. Add in a system that tracks your wins, celebrates your impact, and aligns your business with purpose, and you’ve got a network that’s not just ahead of the curve—it’s defining it.\n\nFrom GSN Vikshan in Chennai to chapters on the horizon, we’re proving this works. Members are landing clients, gaining confidence, and building businesses that matter—all with a platform that blends the best of tomorrow’s tech with today’s heart.",
+    "category": "AI Revolution in Networking"
+  },
+  {
+    "id": 2,
+    "title": "How GSN Unlocked My Next Big Win",
+    "date": "March 24, 2025",
+    "excerpt": "A member shares their journey highlighting growth, resilience, and success.",
+    "author": "By GSN Member",
+    "image": "/img/blog/blog2.jpg",
+    "content": "Full blog content for blog 2...",
+    "category": "Member Success Stories"
+  },
+  {
+    "id": 3,
+    "title": "The Secret to Smarter Success",
+    "date": "March 20, 2025",
+    "excerpt": "Discover powerful strategies, smart networking tips, and real-world success stories.",
+    "author": "By GSN Insights",
+    "image": "/img/blog/blog3.jpg",
+    "content": "Full blog content for blog 3...",
+    "category": "Referral Strategies"
+  }
+],
     "Services": [
       {
         "icon": "fa fa-handshake",
@@ -78,90 +94,5 @@
         "name": "Purpose-Driven Wins",
         "text": "Build a business that matters, step by step."
       }
-    ],
-  
-  "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
-    }
-  ],
-  "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+    ]
 }
