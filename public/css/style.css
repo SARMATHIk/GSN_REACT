@@ -182,30 +182,6 @@ hr {
 .navbar-toggle:hover .icon-bar {
   background-color: #D4AF37;
 }
-
-/* .section-title {
-  margin-bottom: 70px;
-} */
-/* .section-title h2 {
-  position: relative;
-  margin-top: 10px;
-  margin-bottom: 15px;
-  padding-bottom: 15px;
-} */
-/* .section-title h2::after {
-  position: absolute;
-  content: "";
-  background: linear-gradient(to right, #fe1414 0%, #d21711 100%);
-  height: 4px;
-  width: 60px;
-  bottom: 0;
-  margin-left: -30px;
-  left: 50%;
-} */
-/* .section-title p {
-  font-size: 18px;
-} */
-
 .header-buttons {
   display: flex;
   justify-content: center;
@@ -250,127 +226,8 @@ a:focus,
   outline: none;
   outline-offset: none;
 }
-/* Mobile Navigation */
-@media (max-width: 768px) {
-  .navbar-header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 15px;
-  }
-
-  .navbar-brand {
-    padding-left: 0;
-    font-size: 20px; /* Adjust font size for smaller screens */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-  }
-  .gsn-logo {
-    height: 50px; /* Adjust logo size for smaller screens */
-    width: auto;
-    margin-left: 0; 
-  }
-  .navbar-toggle {
-    margin-top: -10px;
-    margin-right: auto; /* Push hamburger to the right */
-    margin-left: 80px; /* Add spacing from the right edge */
-    border: 1px solid transparent;
-    background: transparent;
-    padding: 5px 10px;
-    position: relative;
-    
-  }
-  .navbar-toggle .icon-bar {
-    background-color: white;
-    width: 20px;
-    height: 2px;
-    margin: 4px 0;
-  }
-
-  .navbar-collapse {
-    background: rgba(0, 0, 0, 0.9); 
-    position: absolute;
-    top: 80px; 
-    left: 0;
-    width: 40%; 
-    z-index: 999;
-    padding: 15px 0; 
-    text-align: center; 
-    overflow: hidden; 
-  }
-
-  .navbar-nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    padding: 0; /* Remove extra padding */
-    margin: 0;
-  }
-
-  .navbar-nav > li {
-  width: 100%; 
-  margin: 0;
-  }
-
-  .navbar-nav > li > a {
-    color: white;
-    font-size: 18px;
-    padding: 10px 15px;
-    text-align: center;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  
-}
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 769px) and (max-width: 991px) {
-  #menu.navbar-default .navbar-nav > li > a {
-    margin: 9px 8px 0; 
-    font-size: 14px; 
-  }
-
-  #menu a.navbar-brand {
-    font-size: 36px; 
-  }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {
-  #menu.navbar-default .navbar-nav > li > a {
-    margin: 9px 12px 0; 
-  }
-
-  #menu a.navbar-brand {
-    font-size: 40px; 
-  }
-}
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  #menu.navbar-default .navbar-nav > li > a {
-    margin: 9px 15px 0; 
-  }
-
-  #menu a.navbar-brand {
-    font-size: 44px; 
-  }
-}
 
 /* Header Section */
-/* .intro {
-  display: table;
-  width: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-} */
 #header {
   position: relative;
   height: 100vh; /* Full viewport height */
@@ -425,6 +282,7 @@ a:focus,
 .video-container h1 span {
   font-weight: 800;
   color: #5ca9fb;
+ 
 }
 .video-container p {
   color: #fff;
@@ -440,64 +298,74 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
-/* Mobile Responsiveness */
-@media (max-width: 768px) {
-  #header {
-    height: auto; /* Allow the header to adjust based on content */
+
+/* responsiveness for header and navigation */
+
+/* Responsive Header */
+@media (max-width: 991px) {
+  .navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 
-  .video-container {
-    height: auto; /* Adjust video container height */
+  .navbar-collapse {
+    background: white;
+    padding: 10px 15px;
   }
 
-  .video-container video {
-    height: auto; /* Ensure the video scales properly */
-    width: 100%; /* Maintain full width */
-    object-fit: cover; /* Ensure the video covers the container */
+  #menu .navbar-nav > li > a {
+    color: #333;
+    margin: 10px 0;
+    font-size: 16px;
   }
 
-  .video-container .overlay {
-    padding: 20px; /* Add padding for smaller screens */
-    text-align: center;
+  #menu .navbar-nav > li > a:hover {
+    color: #d4af37;
   }
-
-  .video-container h1 {
-    font-size: 24px; /* Reduce font size for smaller screens */
-    line-height: 1.2; /* Adjust line height */
-  }
-
-  .video-container p {
-    font-size: 14px; /* Adjust paragraph font size */
-    line-height: 1.5; /* Adjust line height */
-    margin-bottom: 30px; /* Reduce bottom margin */
+  
+  .gsn-logo {
+    height: 60px;
+    
   }
 
   .header-buttons {
-    flex-direction: column; /* Stack buttons vertically */
-    gap: 10px; /* Reduce spacing between buttons */
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video-container h1 {
+    font-size: 24px;
+  }
+  
+  .video-container p {
+    font-size: 14px;
+    line-height: 24px;
   }
 
-  .btn-custom {
-    font-size: 14px; /* Adjust button font size */
-    padding: 10px 20px; /* Adjust button padding */
+  .header-buttons a {
+    width: 100%;
+    text-align: center;
   }
 }
 
 @media (max-width: 480px) {
-  .video-container h1 {
-    font-size: 20px; /* Further reduce font size for very small screens */
+  .gsn-logo {
+    height: 50px;
+  
   }
 
-  .video-container p {
-    font-size: 12px; /* Adjust paragraph font size */
-    margin-bottom: 20px; /* Reduce bottom margin */
-  }
-
-  .btn-custom {
-    font-size: 12px; /* Adjust button font size */
-    padding: 8px 15px; /* Adjust button padding */
+  #menu .navbar-nav {
+    text-align: center;
   }
 }
+
+
+
 /* Why GSN Section Styling */
 .why-gsn-section {
   padding: 60px 20px;
