@@ -121,7 +121,7 @@ export const Navigation = () => {
       <div className="container-fluid">
         <div className="navbar-header">
           <a className="navbar-brand page-scroll" href="#page-top">
-            <img src="/img/logo-1.png" alt="GSN Logo" className="gsn-logo" />
+            <img src="/img/newlogo.png" alt="GSN Logo" className="gsn-logo" />
           </a>
           <button
             type="button"

@@ -93,14 +93,15 @@ hr {
 
 /* Logo Styling */
 .gsn-logo {
-  margin: -20px 0 0 0;
-  height: 90px; /* Adjust as needed */
+  margin: -10px 0 0 0;
+  height: 50px; /* Adjust as needed */
   width: auto;
   transition: transform 0.3s ease;
 }
 
 #menu.scrolled .gsn-logo {
-  height: 55px; /* Smaller on scroll if desired */
+  height: 45px; /* Smaller on scroll if desired */
+  margin-top: -15px;
   align-items: center;
 }
 
